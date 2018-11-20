@@ -117,7 +117,7 @@ $app->register(\App\Modules\Callback\CallbackProvider::class);
 //图片合成
 $app->register(\Intervention\Image\ImageServiceProvider::class);
 ////二维码生成
-$app->register(SimpleSoftwareIO\QrCode\QrCodeServiceProvider::class);
+//$app->register(SimpleSoftwareIO\QrCode\QrCodeServiceProvider::class);
 //pms 接口调用
 $app->register(\App\Modules\Pms\PmsProvider::class);
 

@@ -20,6 +20,7 @@ use App\Modules\Test\Service\TestService;
 use App\Modules\Test\TestModule;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Event;
+use phpDocumentor\Reflection\Types\Array_;
 
 class DemoController extends Controller
 {
@@ -115,5 +116,8 @@ class DemoController extends Controller
             ->run();
     }
 
+    public function Test(){
 
+        return "1s";
+    }
 }

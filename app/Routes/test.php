@@ -16,4 +16,5 @@ $router->group(['middleware' => []], function () use ($router) {
     $router->post('/test.testFun', 'DemoController@testFun');
     $router->post('/test.retTest', 'DemoController@retTest');
     //$router->post('/test.signUpMeet', 'TestMeentingController@signUpMeet');
+    $router->get("/test.test","DemoController@Test");
 });
